@@ -24,8 +24,7 @@ class publication
  public:
  void add()
  {
- cout << "\nEnter the Publication information
-: " << endl;
+ cout << "\nEnter the Publication information : " << endl;
  cout << "Enter Title of the Publication : ";
 cin.ignore();
 getline(cin, title);
@@ -49,8 +48,7 @@ cout << "Enter Price of Publication : ";
  try
  {
  add();
-cout << "Enter Page Count of Book :
-";
+cout << "Enter Page Count of Book : ";
  cin >> page_count;
  if (page_count <= 0)
  {
@@ -81,8 +79,7 @@ page_count;
  try
  {
  add();
-cout << "Enter Play Duration of the Tape :
-";
+cout << "Enter Play Duration of the Tape : ";
  cin >> play_time;
  if (play_time <= 0)
  throw play_time;
@@ -108,8 +105,7 @@ play_time << " min";
  int ch, b_count = 0, t_count = 0;
  do
  {
- cout << "\n* * * * * PUBLICATION DATABASE SYSTEM *
-* * * *";
+ cout << "\n* * * * * PUBLICATION DATABASE SYSTEM * * * * *";
  cout << "\n--------------------MENU-----------------------";
  cout << "\n1. Add Information to Books";
  cout << "\n2. Add Information to Tapes";
@@ -129,16 +125,14 @@ break;
  t_count + +;
  break;
  case 3:
- cout << "\n* * * * BOOK PUBLICATION DATABASE
-SYSTEM * * * *";
+ cout << "\n* * * * BOOK PUBLICATION DATABASE SYSTEM * * * *";
  for (int j=0;j < b_count;j++)
  {
  b1[j].display_book();
  }
  break;
  case 4:
- cout << "\n* * * * TAPE PUBLICATION DATABASE
-SYSTEM * * * *";
+ cout << "\n* * * * TAPE PUBLICATION DATABASE SYSTEM * * * *";
  for (int j=0;j < t_count;j++)
  {
  t1[j].display_tape();
