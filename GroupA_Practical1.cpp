@@ -71,14 +71,11 @@ class Complex
  b;
  while (flag == 1)
  {
- cout << "Enter Real and Imaginary part of the Complex Number 1
-: \n";
+ cout << "Enter Real and Imaginary part of the Complex Number 1 : \n";
  cin >> C1;
- cout << "Enter Real and Imaginary part of the Complex Number 2 :
-\n";
+ cout << "Enter Real and Imaginary part of the Complex Number 2 : \n";
  cin >> C2;
- int
- f = 1;
+ int f = 1;
  while (f == 1)
  {
  cout << "Complex Number 1 : " << C1 << endl;
@@ -87,8 +84,7 @@ class Complex
  cout << "1. Addition of Complex Numbers" << endl;
  cout << "2. Multiplication of Complex Numbers" << endl;
  cout << "3. Exit\n";
- int
- a;
+ int a;
  cout << "Enter your choice from above MENU (1 to 3) : ";
  cin >> a;
  if (a == 1)
