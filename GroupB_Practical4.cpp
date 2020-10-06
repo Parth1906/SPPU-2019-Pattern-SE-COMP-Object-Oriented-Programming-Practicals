@@ -36,8 +36,7 @@ int main()
  int i,n;
 
  f.open("demo.txt");
- cout<<"\n Enter the number of employees you want to store
-: ";
+ cout<<"\n Enter the number of employees you want to store : ";
  cin>>n;
  for(i=0;i<n;i++)
  {
