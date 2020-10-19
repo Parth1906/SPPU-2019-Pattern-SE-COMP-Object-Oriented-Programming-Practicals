@@ -18,3 +18,5 @@ Experiment No. 3 : Imagine a publishing company which does marketing for book an
                    and price (type float) of a publication.From this class derive two classes: book, which adds a page count(type int), and tape, which adds a playing time in                        minutes(type float). Write a program that instantiates the book and tape classes, allows user to enter data and displays the data members.If an exception is                        caught, replace all the data member values with zero values.
 
 Experiment No. 4 : Write a C++ program that creates an output file, writes information to it, closes the file, open it again as an input file and read the information from the                        file.
+
+Experiment No. 5 : Write a function template for selection sort that inputs, sorts and outputs an integer array and a float array.
