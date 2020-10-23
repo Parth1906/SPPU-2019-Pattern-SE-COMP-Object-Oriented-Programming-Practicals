@@ -16,7 +16,7 @@ all the data member values
 # include<iostream>
 # include<stdio.h>
 using namespace std;
-class publication
+class publication                 // declaring class Publication
  {
  private:
  string title;
@@ -38,7 +38,7 @@ cout << "Enter Price of Publication : ";
  cout << "\nPublication Price : " << price;
  }
  };
- class book : public publication
+ class book : public publication  // declaring class book which inherits class publication in public mode.
  {
  private:
  int page_count;
@@ -69,7 +69,7 @@ page_count;
  cout << "\n--------------------------------------------------\n";
  }
  };
- class tape : public publication
+ class tape : public publication     // declaring class tape which inherits class publication in public mode
  {
  private:
  float play_time;
@@ -100,8 +100,8 @@ play_time << " min";
  };
  int main()
  {
- book b1[10];
- tape t1[10];
+ book b1[10];            // object of class book
+ tape t1[10];            // object of class tape
  int ch, b_count = 0, t_count = 0;
  do
  {
