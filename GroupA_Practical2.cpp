@@ -17,20 +17,20 @@ memory allocation operators-new and delete as well as exception handling.
 #include<iostream>
 #include<string.h>
 using namespace std;
-class Data
+class Data                            // declaring class Data
 {
  string address;
  long int *telephone;
  long int *dl_no;
 
  public:
- Data();
- ~Data();
+ Data();     // default constructor of class Data
+ ~Data();    // Destructor of class Data
  void input_student_data();
  void display_student_data();
  friend class Student;
 };
-class Student
+class Student                       // declaring class Student
 {
  string Name;
  int Roll;
@@ -38,12 +38,12 @@ class Student
  char *Div;
  string dob;
  char *bg;
- static int count;
+ static int count;                 // static variable declaration
 
  public:
- Student();
- ~Student();
- static int get_count()
+ Student();   // Default constructor of class Student
+ ~Student();    // Destructor of class Student
+ static int get_count()       // static function 
  {
  return count;
  }
@@ -127,7 +127,7 @@ int Student::count;
 int main()
 {
 
- Student *st1[100];
+ Student *st1[100];   
  Data *st2[100];
  int a;
  int s=0;
