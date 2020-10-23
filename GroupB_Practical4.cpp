@@ -5,7 +5,7 @@ Write a C++ program that creates an output file, writes information to it, close
 #include<iostream>
 #include<fstream>
 using namespace std;
-class Employee
+class Employee              // declaring class employee
 {
  string Name;
  int ID;
@@ -35,7 +35,7 @@ int main()
  fstream f;
  int i,n;
 
- f.open("demo.txt");
+ f.open("demo.txt",ios::out);
  cout<<"\n Enter the number of employees you want to store : ";
  cin>>n;
  for(i=0;i<n;i++)
