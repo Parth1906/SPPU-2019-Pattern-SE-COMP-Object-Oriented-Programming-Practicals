@@ -10,24 +10,18 @@ Implement a class Complex which represents the Complex Number data type. Impleme
 
 # include<iostream>
 using namespace std;
-class Complex
+class Complex                       //decaring Class Complex
  {
- double
- real;
- double
- img;
- public: \
- Complex();
- friend
- istream & operator >> (istream &, Complex &); // Input
- friend
- ostream & operator << (ostream &, const Complex &); // Output
- Complex
- operator + (Complex); // Addition
- Complex
- operator * (Complex); // Multiplication
+ double real;       
+ double img;
+ public: 
+ Complex();            // Default Constructor
+ friend istream & operator >> (istream &, Complex &); // Input 
+ friend ostream & operator << (ostream &, const Complex &); // Output
+ Complex operator + (Complex); // Addition
+ Complex operator * (Complex); // Multiplication
  };
- Complex::Complex()
+ Complex::Complex()                 // Default Constructor 
  {
  real = 0;
  img = 0;
@@ -42,33 +36,25 @@ class Complex
  cout << d.real << " + " << d.img << "i" << endl;
  return cout;
  }
- Complex
- Complex::operator + (Complex c1)
+ Complex Complex::operator + (Complex c1)   // Overloading + operator
  {
- Complex
- temp;
+ Complex temp;
  temp.real = real + c1.real;
  temp.img = img + c1.img;
  return temp;
  }
- Complex
- Complex::operator * (Complex c2)
+ Complex Complex::operator * (Complex c2)   // Overloading * Operator
  {
- Complex
- tmp;
+ Complex tmp;
  tmp.real = real * c2.real - img * c2.img;
  tmp.img = real * c2.img + img * c2.real;
  return tmp;
  }
- int
- main()
+ int main()
  {
- Complex
- C1, C2, C3, C4;
- int
- flag = 1;
- char
- b;
+ Complex C1, C2, C3, C4;
+ int flag = 1;
+ char b;
  while (flag == 1)
  {
  cout << "Enter Real and Imaginary part of the Complex Number 1 : \n";
