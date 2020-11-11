@@ -23,3 +23,16 @@ Group B :
 Experiment No. 4 : Write a C++ program that creates an output file, writes information to it, closes the file, open it again as an input file and read the information from the                        file.
 
 Experiment No. 5 : Write a function template for selection sort that inputs, sorts and outputs an integer array and a float array.
+
+
+Group C :
+
+Experiment No. 6 : Write C++ program using STL for sorting and searching user defined records such as Item records (Item code, name, cost, quantity etc) using vector container.
+
+Experiment No. 7 : Write a program in C++ to use map associative container. The keys will be the names of states and the values will be the populations of the states. When the program runs, the user is prompted to type the name of a state. The program then looks in the map, using the state name as an index and returns the population of the state.
+
+
+
+
+
+
