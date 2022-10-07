@@ -79,7 +79,7 @@ class Complex                       //decaring Class Complex
  cout << "Addition : " << C3 << endl;
  cout << "Do you wan to perform another operation (y/n) : \n";
  cin >> b;
- if (b == 'y' | | b == 'Y')
+ if (b == 'y' || b == 'Y')
  {
  f=1;
  }
@@ -96,7 +96,7 @@ class Complex                       //decaring Class Complex
  cout << "Multiplication : " << C4 << endl;
  cout << "Do you wan to perform another operation (y/n) : \n";
  cin >> b;
- if (b == 'y' | | b == 'Y')
+ if (b == 'y' || b == 'Y')
  {
  f=1;
  }
