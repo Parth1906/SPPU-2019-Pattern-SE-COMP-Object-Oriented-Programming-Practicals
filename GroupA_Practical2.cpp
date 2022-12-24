@@ -25,7 +25,7 @@ class Student{
     int roll_no;
     string cls;
     char* division;
-    string dob;
+    string dob; 
     char* bloodgroup;
     static int count;
 

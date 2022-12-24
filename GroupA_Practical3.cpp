@@ -118,11 +118,11 @@ play_time << " min";
  {
  case 1:
  b1[b_count].add_book();
-b_count + +;
+b_count++;
 break;
  case 2:
  t1[t_count].add_tape();
- t_count + +;
+ t_count++;
  break;
  case 3:
  cout << "\n* * * * BOOK PUBLICATION DATABASE SYSTEM * * * *";

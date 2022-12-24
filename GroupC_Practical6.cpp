@@ -3,10 +3,8 @@ Write C++ Program using STL for sorting and searching user defined
 records such as item records using vector container.
 */
 #include <iostream> //standard input output stream header file
-#include <algorithm> //The STL algorithms are generic because
-they can operate on a variety of data structures
-#include <vector> //The header file for the STL vector library is
-vector.
+#include <algorithm> //The STL algorithms are generic because they can operate on a variety of data structures
+#include <vector> //The header file for the STL vector library is vector.
 using namespace std;
 class Item // creating class Item
 {
@@ -15,18 +13,15 @@ class Item // creating class Item
  int quantity;
  int cost;
  int code;
- bool operator==(const Item& i1) //Boolean operators allow
-you to create more complex conditional statements
+ bool operator==(const Item& i1) //Boolean operators allow you to create more complex conditional statements
  {
- if(code==i1.code) //operator will return 1 if the
-comparison is true, or 0 if the comparison is false
+ if(code==i1.code) //operator will return 1 if the comparison is true, or 0 if the comparison is false
  return 1;
  return 0;
  }
  bool operator<(const Item& i1)
  {
- if(code<i1.code) //operator will return 1 if the
-comparison is true, or 0 if the comparison is false
+ if(code<i1.code) //operator will return 1 if the comparison is true, or 0 if the comparison is false
  return 1;
  return 0;
  }
