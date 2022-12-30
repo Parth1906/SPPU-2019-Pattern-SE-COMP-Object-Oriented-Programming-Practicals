@@ -1,8 +1,3 @@
-/*
-Write a function template for selection sort that inputs, sorts and outputs an integer array and
-a float array.
-*/
-
 #include<iostream>
 using namespace std;
 int n;
@@ -81,4 +76,3 @@ int main()
    return 0;
     
 }
-
